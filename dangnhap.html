@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập - Trường Trung cấp Hồng Ngự</title>
+    <meta charset="UTF-8">
+    <link href="style3.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="header">
+	<img src="..\anh\logo.png">
+	<h1>TRƯỜNG TRUNG CẤP HỒNG NGỰ</h1>
+</div>
+
+<div class="nav">
+	<div class="menu-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+	<ul id="nav-menu">
+		<li><a href="bocuc3.html">TRANG CHỦ</a></li>
+		<li><a href="gioithieu.html">GIỚI THIỆU</a></li>
+		<li><a href="phongkhoa.html">PHÒNG KHOA</a></li>
+		<li><a href="lienhe.html">LIÊN HỆ</a></li>
+		<li><a href="dangnhap.html">ĐĂNG NHẬP</a></li>
+	</ul>
+</div>
+
+<div class="login-container">
+    <div class="login-card">
+        <div class="login-header">
+            <img src="..\anh\logo.png" alt="Logo">
+            <h2>ĐĂNG NHẬP HỆ THỐNG</h2>
+        </div>
+        <form action="#">
+            <div class="form-group">
+                <label for="username">Tên đăng nhập</label>
+                <input type="text" id="username" name="username" placeholder="Mã số học sinh/GV" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Mật khẩu</label>
+                <input type="password" id="password" name="password" placeholder="********" required>
+            </div>
+            <div class="form-footer">
+                <label><input type="checkbox"> Ghi nhớ</label>
+                <a href="#">Quên mật khẩu?</a>
+            </div>
+            <button type="submit" class="btn-submit">ĐĂNG NHẬP</button>
+        </form>
+    </div>
+</div>
+
+<div class="footer">
+	<p>Biên tập: Trần Phan Phú Sơn<br>
+	Lớp K8VP <br> Trường Trung cấp Hồng Ngự<br> 
+	QL30, phường An Bình, tỉnh Đồng Tháp</p>
+	<img src="..\anh\qrcode.png">
+</div>
+</body>
+</html>
